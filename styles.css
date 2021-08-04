@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8B4513;
+}
+
+body{
+    margin: 10px 30px;
+    background:#EEE8AA;
+    line-height: 1.4;
+}
+
+ .btn{
+    color:#8B4513;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    font-size: small;
+} 
+img{
+    max-width: 100%;
+    box-shadow: 0 8px 18px rgba(205,133,63, 0.9);
+}
+
+.wraper{
+    display: grid;
+    grid-gap: 10px;
+}
+
+h1{
+    margin-top: 20px;
+    font-family: Brush Script MT;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    border-width: 2px;
+    margin: 0px 650px !important;
+    
+
+}
+/*------------------------------ Navigacija------------------------------ */
+.main-nav ul{
+    margin-top: 5px;
+    display: grid;
+    grid-gap: 10px;
+    padding: 0px;
+    list-style: none;
+    grid-template-columns: repeat(7,1fr);
+}
+.logo{
+    grid-column: 1/3;
+    font-family: Brush Script MT;
+    font-size: 3rem;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.main-nav a{
+    font-family: Brush Script MT;
+    font-size: 2rem;
+    color: #8B4513;
+    display: block;
+    text-decoration:none;
+     padding: 1.1rem;
+    text-align: center;
+    
+}
+.main-nav a:hover{
+    color: #cdc673;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+/*------------------------------ Navigacija------------------------------ */
+
+/*------------------------------ Showcase --------------------------------*/
+
+.showcase{
+    min-height: 650px;
+    background: url(22.jpg);
+    background-size: cover;
+    padding:3 rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    box-shadow: 0 8px 18px rgba(205,133,63, 0.9);
+}
+.showcase h3{
+     margin-right: 50px;
+    font-family: Brush Script MT;
+    font-size: 2.2rem;
+}
+.info{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 30px;
+    border: solid #8B4513;
+    border-radius: 3px;
+}
+/*------------------------------ Showcase --------------------------------*/
+/* -------------------------------Info------------------------------------ */
+.info h2{
+    font-family: Brush Script MT;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.info p{
+    text-align: justify;
+}
+/* -------------------------------Info------------------------------------ */
+/*-------------------------------- Asortiman------------------------------- */
+.asor{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.siderbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 15px 15px;
+    border: solid #8B4513;
+    border-radius: 3px;
+}
+.siderbar p{
+    text-align: justify;
+   margin: 5px 10px;
+}
+div{
+    text-align: center;
+}
+.siderbar a{
+    margin:5px;
+}
+.siderbar a:hover{
+    color: #cdc673;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+.photo{
+    max-width: 200px;
+    max-height: 200px;
+}
+.siderbar h2{
+    font-family: Brush Script MT;
+    font-size: 2rem;
+    text-align: center;
+}
+/*-------------------------------- Asortiman------------------------------- */
+/* --------------------------------Usluge----------------------------------- */
+.oportunities{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    
+} 
+.oportunities h2{
+    font-family: Brush Script MT;
+    font-size: 1.5rem;
+}
+.oportunities1{
+    text-align: center;
+    padding: 1.5rem 2rem;
+    border: solid #8B4513;
+    border-radius: 3px;
+    
+}
+.oportunities :hover{
+    color: #cdc673;
+    opacity: 0.8;
+    transition: 0.9s;
+    cursor: pointer;
+}
+/* --------------------------------Usluge----------------------------------- */
+/* ----------------------------Wraper-end------------------------------------ */
+
+.wraper-end{
+    background-image: url(halftone-yellow.png);
+    background-repeat: repeat;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color:#8B4513;
+}
+.row{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5px;
+}
+.contact-form{
+    padding: 15px;
+}
+ .form-control{
+    width: 60%;
+    background-image: url(halftone-yellow.png);
+    background-repeat: repeat;
+    border: solid #8B4513;
+    border-radius: 3px;
+    
+    margin: 10px;
+    padding: 13px;
+
+} 
+::placeholder{
+    color:#8B4513 ;
+    font-weight: bold;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btnP{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#EEE8AA ;
+    background: #8B4513;
+    border: solid #8B4513;
+    border-radius: 3px;
+    margin: 30px 40px;
+    padding: 10px 20px;
+}
+
+.follow{
+    width: 80%;
+    padding: 13px;
+    margin: 15px 140px;
+    
+    
+}
+.b{
+    font-family: Brush Script MT;
+    font-size: 1.5rem;
+}
+.contact-info .fas{
+    margin: 10px;
+
+}
+/* ----------------------------Wraper-end------------------------------------ */
+/* ------------------------------Footer-------------------------------------- */
+
+.foot{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#8B4513 ;
+    align-items: center;
+}
+.follow i{
+    color:#8B4513 ; 
+    margin: 5px 5px;
+}
+/* ------------------------------Footer-------------------------------------- */
+
+/* ----------------------------Media Queries----------------------------------- */
+
+@media only screen and (max-width:750px){
+    hr{
+        width: 110px !important;
+    } 
+    .main-nav ul{
+       display: block;
+       text-align: center;
+       margin:0 30%;
+    }
+    .showcase{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-right: 2%;
+    }
+    .info{
+        display: block;
+       text-align: center;
+        margin-right: 2%;
+    }
+    .oportunities{
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 2%;
+    }
+    .asor{
+        margin-right: 2%;
+    } 
+    .siderbar{
+        display: block;
+        text-align: center;
+        margin-right: 2%;
+    }
+    
+    .row{
+        display: block;
+        text-align: center;
+        margin-right: 2%;
+    }
+    
+    
+}
+
+@media (max-width:400px){
+    hr{
+        width: 90px !important;
+    } 
+    .oportunities{
+        display: block;
+        text-align: center;
+        margin-right: 2%;
+    }
+    .asor{
+        display: block;
+        text-align: center;
+        margin-right: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
